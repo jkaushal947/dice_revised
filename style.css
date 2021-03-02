@@ -1,15 +1,26 @@
 *{
     font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-image: linear-gradient(to right, red, green);
-    color:white;
+    background:white;
+    color:black;
 }
 
 /* All elements width includes borders and padding*/
 * {
 box-sizing: border-box;
+}
+
+.row{
+    
+    align-content: center;
+}
+
+.col-4{
+    margin-left: 33%;
 }
 
 /* Rows*/

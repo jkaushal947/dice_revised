@@ -11,12 +11,12 @@
 <body>
     <div class="row" align="center">
         <div class="col-4">
-            <h3>Player 1</h3>
+            <h3>Player 1 (Player)</h3>
             <img src="images/d1.png" id="mydice1">
             <img src="images/d1.png" id="mydice2">
         </div>
         <div class="col-4">
-            <h3>Player 2</h3>
+            <h3>Player 2 (Enemy)</h3>
             <img src="images/e1.png" id="hisdice1">
             <img src="images/e1.png" id="hisdice2">
             <div id="enemy_score"></div>
@@ -63,10 +63,10 @@
 
         function winner(player, enemy) {
             if (player < enemy) {
-                return "loser.gif";
+                return "loser.jpg";
             }
             if (enemy < player) {
-                return "winner.gif"
+                return "winner.jpg"
             }
             if (player == enemy) {
                 return "tie.png"
